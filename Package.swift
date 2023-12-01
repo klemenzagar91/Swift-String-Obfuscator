@@ -5,7 +5,7 @@ let package = Package(
     name: "SwiftStringObfuscator",
     platforms: [
         .macOS(.v10_13),
-        .iOS(.v16),
+        .iOS(.v15),
     ],
     products: [
         .executable(name: "swift_string_obfuscator", targets: ["swift_string_obfuscator"]),
