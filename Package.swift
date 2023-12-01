@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
     name: "SwiftStringObfuscator",
     platforms: [
         .macOS(.v10_13),
-        .iOS(.v15),
+        .iOS(.v16),
     ],
     products: [
         .executable(name: "swift_string_obfuscator", targets: ["swift_string_obfuscator"]),
